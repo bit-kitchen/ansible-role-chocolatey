@@ -1,6 +1,9 @@
 ansible-role-chocolatey
 =======================
 
+[![Ansible Role: bit_kitchen.chocolatey](https://img.shields.io/ansible/role/46873.svg)](https://galaxy.ansible.com/bit_kitchen/chocolatey)
+[![Build Status](https://travis-ci.org/bit-kitchen/ansible-role-chocolatey.svg?branch=master)](https://travis-ci.org/bit-kitchen/ansible-role-chocolatey)
+
 Install [chocolatey](https://chocolatey.org/).
 
     ansible-galaxy install bit_kitchen.chocolatey
