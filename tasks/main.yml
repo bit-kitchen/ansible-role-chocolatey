@@ -1,2 +1,5 @@
 ---
-# tasks file for chocolatey
+- name: Install chocolatey
+  win_chocolatey:
+    name: non-existent
+    state: absent
