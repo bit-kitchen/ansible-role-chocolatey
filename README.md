@@ -6,6 +6,8 @@ ansible-role-chocolatey
 
 Install [chocolatey](https://chocolatey.org/).
 
+This role will do nothing on Linux, so that it can be depended on by roles compatible with both Linux and Windows.
+
     ansible-galaxy install bit_kitchen.chocolatey
 
 Requirements
